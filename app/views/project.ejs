@@ -1,0 +1,42 @@
+<%- include ('partials/header.ejs') %>
+<%- include ('partials/main_nav.ejs') %>
+
+
+<main class="container">
+  <div class="jumbotron">
+    <h1 class="display-4">Welcome to <%= title %> page</h1>
+    <p>Project page</p>
+    </div>
+    <H2>Projects</H2>
+    <H3>Korea WIFI Network migration project</H3>
+    <H4>Description</H4>
+    This project is focus on migrating the legacy WIFI infra in Korea to new infrastructure. The project is divided into 3 phases. Phase 1 is to migrate the WIFI controller to new controller. Phase 2 is to migrate the WIFI AP to new AP. Phase 3 is to migrate the WIFI authentication server to new server. The project is to be completed in 3 months.
+    New platform able to support latest WIFI standard and higher throughput.
+    <H4>Outcome</H4>
+    Migration successful and user experience is improved.
+  <p><img src="/img/wifi.png" width="200"> </img></p>
+
+    <H3>Hong Kong external firewall migration project</H3>
+    <H4>Description</H4>
+    Exiting external connection firewall is end of life and need to be replaced.
+    target timeline is completed in 3 months.
+    <H4>Outcome</H4>
+    Firewall has been migrated to new platform and user report no issue.
+    <p><img src="/img/firewall.jpg" width="200"> </img></p>
+
+    <H3>Taiwan Core Network migration project</H3>
+    <H4>Description</H4>
+    Core network in taiwan is end of life and need to be replaced.
+    scope including core switch , routers and firewalls.
+    <H4>Outcome</H4>
+    project completed in 3 months and all network devices in scope have been replaced.
+    <p><img src="/img/corenetwork.png" width="200"> </img></p>
+
+
+  </main>
+    <!--bottom nav-->
+
+
+      <!--script section-->
+      <%- include ('partials/bottom_nav.ejs') %>
+      <%- include ('partials/footer.ejs') %>
